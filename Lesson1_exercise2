@@ -7,4 +7,4 @@ hours = int(user_sec // 3600)
 minutes = int(user_sec % 3600 / 60)
 sec = int(user_sec % 3600 % 60)
 
-print(f"{hours}:{minutes}:{sec}")
+print(f"{hours:>02}:{minutes:>02}:{sec:>02}")
