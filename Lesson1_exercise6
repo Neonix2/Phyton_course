@@ -6,7 +6,7 @@
 
 distance = int(input("Введите расстояние, котрое спортсмен пробежал в первый день: "))
 distance2 = int(input("Введите расстояние, для которого необходимо определеить номер дня: "))
-day = (0)
+day = (1)
 
 while distance2 > distance:
     distance = distance + (distance * 0.1)
